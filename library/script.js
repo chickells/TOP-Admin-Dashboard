@@ -1,3 +1,14 @@
+// OUTLINE
+
+// create library array []
+// create book constructor
+// add book to library function
+// form that adds book to libary
+// display book on card
+
+// jfc this is a thicc one lol
+
+
 function Book(title, author, pages, haveRead) {
     this.title = title;
     this.author = author;
