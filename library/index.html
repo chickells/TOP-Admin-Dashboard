@@ -25,6 +25,40 @@
         
       </div>
     </header>
+
+    <!-- modular JS tutorial, object literal pattern -->
+    <!-- https://www.youtube.com/watch?v=HkFlM73G-hk&list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f&index=2 -->
+
+  <div id="peopleModule">
+    <h1>People</h1>
+    <input placeholder="name" type="text">
+    <button id="addPerson">Add Person</button>
+    <ul id="people">
+      <script id="people-template" type="text/template">
+        {{#people}}
+          <li>
+            <span>{{.}}</span>
+            <i class="del">X</i>
+          </li>
+         {{/people}} 
+      </script>
+    </ul>
+  </div>
+
+
+  <!-- video has build:js and bower:js ....??? -->
+
+
+  <!-- modularJS script -->
+  <script src="./modularJS.js"></script>
+
+
+
+
+
+
+
+
     <main class="main container">
       <button class="btn btn-add" id="addBookBtn">+ Add link</button>
       <div class="books-grid" id="booksGrid"></div>
